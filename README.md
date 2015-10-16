@@ -38,8 +38,19 @@ Una vez metida la clave pública, ligamos los dos proyectos:
 
 Copiamos lo que haya en GitHub y lo traemos a nuestro PC:
 
-	git pull origin master ---> Copia la rama 'master', es decir, todo
+	git pull origin master  #Copia la rama 'master', es decir, todo
 
 Cargamos en GitHub lo que hay en nuestro PC:
 
-	git push origin master ---> Copia a la rama 'master'
+	git push origin master  #Copia a la rama 'master'
+
+--------------
+Cambiamos de tercio, y entramos en el concepto de 'branch' o ramas. Para crear una rama:
+	
+	git branch dev     #creamos la rama 'dev'
+	git branch vagalume  #creamos la rama 'vagalume'
+
+Se pueden crear tantas ramas como deseemos. Hay una rama inicial y principal que es 'master', de la cual parte el resto que vayamos creando.
+Para cambiar de rama o branch, tecleamos:
+
+	git checkout dev 		 #cambiamos a la rama dev
