@@ -53,4 +53,6 @@ Cambiamos de tercio, y entramos en el concepto de 'branch' o ramas. Para crear u
 Se pueden crear tantas ramas como deseemos. Hay una rama inicial y principal que es 'master', de la cual parte el resto que vayamos creando.
 Para cambiar de rama o branch, tecleamos:
 
-	git checkout dev 		 #cambiamos a la rama dev
+	git checkout dev	#cambiamos a la rama dev
+	git branch		 #me informa de las ramas existentes y en la que estoy
+
