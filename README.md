@@ -12,14 +12,18 @@ Una vez instalas GIT, hay que configurarlo:
 	git config --global user.name "Pablo Insua"
 	git config --global user.email "xxxxxx@xxxxxx.com"
 
-Arrancar el proyecto:
+Arrancar el proyecto desde cero:
 	
-	git init
+	git init	#Transforma el directorio actual en un repositorio
 	touch README
 	git add README
 	git commit -m "Mi primer commit"
 	git push
-	git status 		#comprueba si hay alguna modificación
+	git status		#comprueba si hay alguna modificación
+
+La otra opción de iniciar un proyecto es con la instrucción 'clone'. Esta instrucción copia el repositorio a nuestro PC
+
+	git clone http://pinsua@xxx.xxx:xxx/**/**/**/*.git	#Internamente clone hace su propio git init
 
 Para conectar Git con GitHub necesitamos antes generar una Public Key:
 
